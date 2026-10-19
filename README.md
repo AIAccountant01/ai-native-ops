@@ -47,6 +47,33 @@ flowchart LR
   GH --- G[Grok] & C[ChatGPT] & GE[Gemini] & CL[Claude] & CP[Copilot]
 ```
 
+## Key systems
+
+### Parallel research layer
+A Research agent and a Prospect scout use Parallel (web search, entity discovery, enrichment and deep
+research) to find multi-outlet restaurant brands, their head offices and founders, live outlet counts on
+delivery platforms, and public candidate profiles for hiring. The decision router gives a verdict and
+confidence on each go/skip. I decide who gets contacted. Results land in a Google Sheets CRM run by its
+own agent, which tracks 42 firms as of October 2026.
+
+### Email follow-up engine
+Every lead I email goes on a three-step follow-up drip, one step every three working days: a worked
+payout-mismatch example, then a free one-outlet trial offer, then a final check-in. A weekday routine
+checks the CRM and inbox and stops the drip the moment a lead replies. Agents draft every email and log it
+in the CRM. I review and send each one myself; nothing goes out automatically.
+
+### Social listening and building in public
+- **Complaint-to-lead:** public posts from restaurants complaining about delivery-platform payouts become
+  leads. The decision router gives a go/skip on whether each one enters an outreach drip.
+- **Build in public:** from 20 Oct 2026, a clearly labelled automated X account posts three times a week about this agent
+  setup, using images made from real dashboards. It only replies to people who engage first and never
+  auto-likes or follows. Every post is scored by the decision router and checked by the Risk agent before
+  it goes out. I write my own weekly LinkedIn post.
+
+### Decision router in numbers
+Every ranking, routing and go/skip call is saved as a run file with its verdict and confidence. A weekly
+review sends calls under 0.5 confidence to me. In the week of 12 Oct 2026 it handled 446 decision calls; 122 came in under 0.5 confidence and went to a human.
+
 ## Operating rules
 
 1. **Human in the loop.** Agents draft emails, messages, posts and pushes. Nothing goes out without my yes.
