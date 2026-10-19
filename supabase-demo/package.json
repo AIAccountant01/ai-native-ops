@@ -1,0 +1,16 @@
+{
+  "name": "decision-log-demo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "log": "tsx scripts/log_decision.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0",
+    "@types/node": "^20.0.0"
+  }
+}
