@@ -1,0 +1,8 @@
+{
+  "model": "jev-1.13.0",
+  "answers": {
+    "q1": { "type": "score", "score": 7.8, "confidence": 0.71 },
+    "q2": { "type": "choice", "choice": "go", "confidence": 0.42 },
+    "q3": { "type": "noul", "noul": 0.83 }
+  }
+}
