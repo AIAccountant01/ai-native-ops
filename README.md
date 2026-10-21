@@ -165,5 +165,6 @@ view. It also includes a small supabase-js script that logs a new router respons
 - [`AGENTS.md`](AGENTS.md) holds the shared rules every AI follows in my bridged workspace.
 - [`HANDOFF-TEMPLATE.md`](HANDOFF-TEMPLATE.md) is the session note format agents use to hand work to each other.
 - [`supabase-demo/`](supabase-demo/) is the decision log on Supabase: migration, anonymised seed, logging script.
+- [`webhook-trigger/`](webhook-trigger/) lets an outside system trigger a bot automation with a signed webhook.
 
 Connect: [LinkedIn](https://www.linkedin.com/in/raghavraja/)
