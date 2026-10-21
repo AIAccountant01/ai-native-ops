@@ -1,10 +1,10 @@
 # AI-Native Ops: how I run a founder's office with a team of AI agents
 
-I'm Raghav R, VP – Founder's Office at Ai Accountant (Y Combinator-backed). I run sales, GTM and ops
+I'm Raghav R, AVP at Karbon Card. I run sales, GTM and ops
 for our restaurant and CA-partnership lines with a team of specialised AI agents. Each agent has one job,
 shares memory with the others, and works under one rule: **AI drafts, a human approves**.
 
-This repo describes that setup. It contains no client data, credentials or internal numbers.
+This repo describes that setup. It contains no client names, contacts, prices or credentials. The numbers shown are aggregates and ratios from my own agent logs and CRM, not company financials.
 
 ## The agent team
 
